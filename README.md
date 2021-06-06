@@ -1,3 +1,4 @@
+<H2>Single page application for meteo data visualization</H2>
 A small React project for visualization of meteo data. Workable version on https://meteo-app-73693.web.app/
 
 In the project directory, you can run:
