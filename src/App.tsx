@@ -12,6 +12,7 @@ import Dashboard from './containers/Dashboard/Dashboard';
 function App() {
   return (
     <div className="App">
+      <h1>Meteo Dashboard</h1>
       <Dashboard/> 
     </div>
   );

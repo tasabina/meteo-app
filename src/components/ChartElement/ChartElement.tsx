@@ -80,11 +80,11 @@ function ChartElement(props: any) {
         }
         for(let i in elem) {
             let obj:DataSet = {
-                label: i,
+                label: i.replaceAll('_', ' '),
                 data: elem[i],
                 fill: false,
                 backgroundColor: randomColor(),
-                borderColor: 'rgba(255, 99, 132, 0.2)',
+                borderColor: 'rgba(63, 64, 68, 0.2)',
                 yAxisID: 'y-axis-1',
             }
             datasets.push(obj);

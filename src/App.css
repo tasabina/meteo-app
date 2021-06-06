@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  color:#282c34;
+}
+.App h1 {
+  text-transform: uppercase;
 }
 
 .App-logo {
